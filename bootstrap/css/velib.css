@@ -1,0 +1,161 @@
+body,h1,h2,h3,h4 {
+    font-family: 'Open Sans', sans-serif,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+#logo {
+    margin-top: 50px;
+}
+
+.align-top {
+    margin-top: 250px;
+}
+
+#rightNav{
+    background: #EEE;
+    padding: 5px;
+    min-height: 1000px;
+}
+
+#rightNav ul{
+    list-style: none;
+    padding-top: 100px;
+}
+
+#rightNav li{
+    display: inline;
+    padding-left: 10px;
+
+}
+
+#log-img {
+    margin-top: 65px;
+}
+
+.form-horizontal .controls {
+    margin-left: 0px !important;
+}
+
+
+#fav-list {
+    border-bottom: 1px dotted lightgrey;
+    max-height: 230px;
+    overflow-y: auto;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    background-color: whiteSmoke;
+    width: 100%;
+}
+
+#footer p{
+    color: #999;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#box-info span{
+    font-weight: bold;;
+}
+
+#box-info p {
+    font-size: 11px;
+}
+
+.infoBox{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.p_picture{
+    width: 30px;
+}
+
+.favorite{
+    font-size: 11px;
+    text-transform: lowercase;
+}
+
+
+#backMap{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+#map{
+    margin: 0px;
+    height:787px;
+}
+
+#profile{
+    background: white;
+    display: block;
+    position: absolute;
+    padding: 5px 12px;
+    border-radius: 0px 0px 15px 16px;
+    left: 210px;
+}
+
+#profile .dropdown-toggle {
+    color: black;
+}
+
+.navbar .nav {
+    text-transform: uppercase;
+}
+
+.top-space {
+    margin-top: 40px;
+}
+.gps {
+    margin: 20px;
+}
+
+#box-info {
+    padding: 10px;
+    box-shadow: 4px 4px 5px #888;
+}
+
+#box-info .number {
+    margin-top: 8px;
+    font-size: 13px;
+}
+
+#instruction{
+    max-height: 220px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.socialco {
+    background-image: url('../img/sociallog.png');
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 49px;
+    float: left;
+    padding-left: 12px;
+    margin-top: 25px;
+}
+
+#fbconnect {
+    background-position: -7px -6px;
+    margin-left: 20px;
+}
+
+#twconnect {
+    background-position: -87px -75px;
+}
+
+#glconnect {
+    background-position: -166px -6px;
+}
